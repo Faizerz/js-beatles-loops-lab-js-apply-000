@@ -32,3 +32,14 @@ function johnLennonFacts(facts) {
   return FACTS;
 
 }
+
+function iLoveTheBeatles(z) {
+  const loveArr = []
+
+  do {
+    loveArr.push('I love the Beatles!')
+    z++
+  } while (z < 15)
+
+  return loveArr
+}
